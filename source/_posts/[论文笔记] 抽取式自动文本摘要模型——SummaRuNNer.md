@@ -12,6 +12,8 @@ tags:
 ---
 
 ## 论文概述 ##
+本文发表在AAAI 2017上，作者是Ramesh Nallapati, Feifei Zhai和Bowen Zhou，论文链接：https://arxiv.org/abs/1611.04230 。
+
 这篇文章提出了一个基于RNN的模型，来完成抽取式自动文本摘要任务。模型公式具有可解释性，并且可以利用已有的abstractive summary数据训练我们的extractive model。
 
 <!-- more --> 
