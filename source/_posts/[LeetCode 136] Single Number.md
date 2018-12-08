@@ -2,10 +2,10 @@
 title: '[LeetCode 136] Single Number'
 date: 2018-11-05 12:30:38
 categories: 
-  - leetcode
+  - 数据结构与算法
   - 数组
 tags:
-  - leetcode
+  - LeetCode
   - 算法
   - C++
 ---

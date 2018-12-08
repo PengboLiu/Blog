@@ -2,10 +2,10 @@
 title: '[LeetCode 26 & 80] Remove Duplicates from Sorted Array'
 date: 2018-09-28 12:58:30
 categories: 
-  - leetcode
+  - 数据结构与算法
   - 数组
 tags:
-  - leetcode
+  - LeetCode
   - 算法
   - C++
 ---
@@ -14,8 +14,7 @@ LeetCode 26题与80题，两者很相似，都是在有序数组中去除重复�
 <!-- more --> 
 ## 26. Remove Duplicates from Sorted Array（删除排序数组中的重复项） ##
 
-> 
-English：  
+> English：  
 Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
 Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.  
 中文：  

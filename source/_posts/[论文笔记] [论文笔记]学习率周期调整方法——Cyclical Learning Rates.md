@@ -1,5 +1,5 @@
 ---
-title: '[论文笔记]学习率周期调整方法——Cyclical Learning Rates'
+title: '[论文笔记] 学习率周期调整方法——Cyclical Learning Rates'
 date: 2018-11-27 22:12:50
 categories: 
   - Paper Notes
