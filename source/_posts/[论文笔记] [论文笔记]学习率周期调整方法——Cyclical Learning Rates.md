@@ -38,11 +38,12 @@ $$\theta ^ { t } = \theta ^ { t - 1 } - \epsilon _ { t } \frac { \partial L } { 
 首先计算当前迭代次数属于哪个 cycle，然后计算上图中每个点其具体的lr值是多少，建立坐标后，开始计算点(x,y)，我们知道了当前cycle，每个cycle的iter是 2*cycle*step_size，然后再用当前 iterations 减去这个值，y要区分是上升还是下降阶段。
 ![avatar](/images/2018-11-29-2.png)
 
-
+```
     cycle = np.floor(1+iterations/(2*step_size)) 
     x = np.abs(iterations/step_size - 2*cycle + 1)
     lr = base_lr + (max_lr-base_lr)*np.maximum(0, (1-x))
-    
+ ```   
+
  
  2. **triangular2**  
  每个新的cycle，新的max_lr都减半
